@@ -28,7 +28,7 @@ public class ApiClient {
      *
      * const val BACKEND_URL = "https://your-app.herokuapp.com"
      */
-    public static final String BACKEND_URL = "";
+    public static final String BACKEND_URL = "https://stripe-android-backend-techono.herokuapp.com";
 
     private static final OkHttpClient mClient = new OkHttpClient.Builder()
             .addNetworkInterceptor(new StethoInterceptor())
